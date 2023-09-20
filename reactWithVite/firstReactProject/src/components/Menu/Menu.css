@@ -1,0 +1,13 @@
+.flexContainer {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.menuOption {
+    padding-left: 10px;
+    padding-bottom: 20px;
+}
+
+.menuOption:hover {
+    cursor:pointer;
+}
