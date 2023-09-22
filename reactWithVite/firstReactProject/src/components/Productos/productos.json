@@ -1,0 +1,16 @@
+{
+    "celulares": [
+        {
+            "title" : "iPhone 15",
+            "price" : "$25,5000"
+        },
+        {
+            "title" : "Xioami",
+            "price" : "$5,000"
+        },
+        {
+            "title" : "Samsung Galaxy S22", 
+            "price" : "$15,000"
+        }
+    ]
+}
