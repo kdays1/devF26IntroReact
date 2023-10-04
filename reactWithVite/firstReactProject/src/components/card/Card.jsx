@@ -21,8 +21,8 @@ function Card(props) {
             <div className='d-flex'>
                 <h2>{props.item.title}</h2>
                 <div className='col text-end' onClick={handlerLike}>
-                {like ? <FaRegHeart ></FaRegHeart> : <FaHeart></FaHeart>}
-            </div>
+                    {like ? <FaRegHeart ></FaRegHeart> : <FaHeart></FaHeart>}
+                </div>
             </div>
             
             <p>Nuevo iPhone en colores pastel</p>

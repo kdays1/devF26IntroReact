@@ -1,6 +1,7 @@
 import React, {useEffect, useState} from "react";
 import Card from "../card/Card";
 import ProductosStored from './productos.json'
+import { Link } from "react-router-dom";
 
 export default function Productos() {
 
@@ -23,7 +24,11 @@ export default function Productos() {
         <section className='celulares'>
             {              
                 productos.map((item, index) => {
-                return <Card item={item} key={index}/>
+                return (
+                    <Link to="/celulares" state={item} key={index}>
+                        <Card item={item} key={index}/>
+                    </Link>
+                )
                 })
             }
         </section>)
