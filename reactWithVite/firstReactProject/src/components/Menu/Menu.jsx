@@ -6,11 +6,9 @@ import { NavLink } from "react-router-dom";
 
 
 function Menu() {
-    return (<Navbar expand="lg" className="bg-body-tertiary">
-        <NavLink to="/">Celulares</NavLink>
-        <a className="menuOption">All Cellphones</a>
-        <a className="menuOption">iPhones</a>
-        <a className="menuOption">Samsung</a>
+    return (<Navbar expand="lg" className="flexContainer">
+        <NavLink className="menuOption" to="/">Home</NavLink>
+        <NavLink className="menuOption" to="/celulares">Celulares</NavLink>
     </Navbar>)
 }
 

@@ -29,19 +29,18 @@ const routes = createBrowserRouter([
     children: [
       {
         path: '/',
-        element: <Productos/>
-      },
-      {
-        path: '/pantallas',
-        element: <h2>Pantallas </h2>
+        element: <h1>Esto es el Home</h1>
       },
       {
         path: '/celulares',
+        element: <Productos/>
+      },
+      {
+        path: '/celulares/:title',
         element: <DetailsView/>
       }
     ]
-
-  },
+      },
   {
     path: '/about',
     element: <h1>About us</h1>
